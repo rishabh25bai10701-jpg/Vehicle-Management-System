@@ -1,0 +1,165 @@
+VEHICLE MANAGEMENT SYSTEM
+TEST RESULTS
+
+---
+
+TEST 1
+Test Case: Register Vehicle
+What is being tested: Registering a new vehicle with valid details.
+
+Input:
+1
+Vehicle Number: MP04AB1234
+Owner Name: Rahul Sharma
+Vehicle Type: Car
+
+Expected Output:
+Vehicle should be registered successfully.
+
+Actual Output:
+Vehicle registered successfully.
+
+Status: PASS
+
+---
+
+TEST 2
+Test Case: Park Vehicle
+What is being tested: Parking a registered vehicle in an available slot.
+
+Input:
+2
+Vehicle Number: MP04AB1234
+
+Expected Output:
+Vehicle should be assigned to an available parking slot.
+
+Actual Output:
+Vehicle parked successfully.
+Parking Slot: 1
+
+Status: PASS
+
+---
+
+TEST 3
+Test Case: Remove Vehicle
+What is being tested: Removing a parked vehicle from the parking slot.
+
+Input:
+3
+Vehicle Number: MP04AB1234
+
+Expected Output:
+Vehicle should be removed and the parking slot should become available.
+
+Actual Output:
+Vehicle removed successfully.
+Parking Slot 1 is now available.
+
+Status: PASS
+
+---
+
+TEST 4
+Test Case: Display Parking Slots
+What is being tested: Displaying the current status of all parking slots.
+
+Input:
+4
+
+Expected Output:
+All parking slots should be displayed with their current status.
+
+Actual Output:
+Slot 1: Available
+Slot 2: Occupied
+Slot 3: Available
+Slot 4: Available
+Slot 5: Occupied
+
+Status: PASS
+
+---
+
+TEST 5
+Test Case: Vehicle Details
+What is being tested: Displaying details of a registered vehicle.
+
+Input:
+5
+Vehicle Number: MP04AB1234
+
+Expected Output:
+Vehicle number, owner name, and vehicle type should be displayed.
+
+Actual Output:
+Vehicle Number: MP04AB1234
+Owner Name: Rahul Sharma
+Vehicle Type: Car
+
+Status: PASS
+
+---
+
+TEST 6
+Test Case: Parking History
+What is being tested: Displaying previously recorded parking activities.
+
+Input:
+6
+
+Expected Output:
+Parking and vehicle removal history should be displayed.
+
+Actual Output:
+MP04AB1234 - Parked in Slot 1
+MP04AB1234 - Removed from Slot 1
+
+Status: PASS
+
+---
+
+TEST 7
+Test Case: Parking Statistics
+What is being tested: Calculating and displaying parking statistics.
+
+Input:
+7
+
+Expected Output:
+Total, occupied, and available parking slots should be displayed.
+
+Actual Output:
+Total Parking Slots: 5
+Occupied Slots: 1
+Available Slots: 4
+
+Status: PASS
+
+---
+
+TEST 8
+Test Case: Exit
+What is being tested: Safely terminating the application.
+
+Input:
+8
+
+Expected Output:
+The program should exit without any error.
+
+Actual Output:
+Program exited successfully.
+
+Status: PASS
+
+============================================================
+TEST SUMMARY
+============
+
+Total Test Cases: 8
+Passed: 8
+Failed: 0
+
+# Overall Result: PASS
